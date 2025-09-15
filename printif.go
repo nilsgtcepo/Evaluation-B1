@@ -5,7 +5,7 @@ import (
 )
 
 func PrintIf(str string) string {
-	if str == (\\len(str >= 3)) {
+	if len(str) >= 3 {
 		return "G \n"
 	} else {
 		return "invalid input \n"
